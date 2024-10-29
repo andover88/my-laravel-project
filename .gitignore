@@ -1,0 +1,23 @@
+/.phpunit.cache          # PHPUnit cache files
+/bootstrap/ssr           # Server-side rendering cache (if using SSR)
+node_modules             # Node.js dependencies (when using npm or Yarn)
+public/build             # Compiled assets (e.g., from Laravel Mix)
+public/hot               # Hot module replacement files (if using Laravel Mix)
+public/storage           # Storage links (symlinked)
+storage/*.key            # Sensitive keys in the storage directory
+/storage/pail            # Pail directory (if used)
+vendor                   # Composer dependencies
+.env                     # Environment variables (sensitive data)
+.env.backup              # Backup of the .env file
+.env.production          # Production environment variables
+.phpactor.json           # PHP Actor configuration file
+.phpunit.result.cache    # PHPUnit results cache
+Homestead.json           # Homestead configuration file
+Homestead.yaml           # Homestead configuration file
+auth.json                # Authentication tokens or configuration
+npm-debug.log            # npm debug log file
+yarn-error.log           # Yarn error log file
+/.fleet                  # Fleet-related configuration
+/.idea                   # PHPStorm project files
+/.vscode                 # VS Code project files
+/.zed                    # Zed-related files (if applicable)
